@@ -1,0 +1,11 @@
+{
+    "controls": "CONTROLS :\n---------\nLeft : l\nUp : u\nRight: r\nDown : d\n---------",
+
+    "errors": {
+        "not_valid_move": "Move is invalid."
+    },
+
+    "ask_move": "Type your move.\nAnswer : ",
+
+    "end": "---------"
+}
