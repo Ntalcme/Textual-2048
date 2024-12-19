@@ -293,7 +293,7 @@ def can_play(grid: list[list[int]]) -> bool:
     Returns:
         bool: True if the player can play the 2048 game.
     """
-    return all(cel != ConstantsOf2048.Gameplay.EMPTY_CELL_VALUE for line in grid for cel in line) or can_move(grid)
+    return any(cel == ConstantsOf2048.Gameplay.EMPTY_CELL_VALUE for line in grid for cel in line) or can_move(grid)
 
 def main():
     """
