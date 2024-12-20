@@ -7,7 +7,7 @@ I chose the 2048 and here is my version.
 ---
 The way I wrote my version of 2048 goes beyond the current level that the university assumes we have.  
 Like classes, dictionaries, `lambda`, etc.
----
+
 # How it works ?
 There are 3 files : **2048_game.py**, **constants_2048.py** and **game_texts.json**.  
 The first one is the main file which contains all necessary functions, second one contains 
